@@ -9,9 +9,10 @@ function isPalindrome(input) {
         return false
     }
 
-    // Remove regex?
+    // Change to lowercase.
     input = input.toLowerCase()
 
+    // Remove regex.
     input = input.replace(/[^a-z]/g,"")
 
     // Separate string into an array of individual characters.
